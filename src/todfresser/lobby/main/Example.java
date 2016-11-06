@@ -9,7 +9,7 @@ public class Example {
 	public int ichbineinInteger;
 	
 	/***
-	 * Methoden:
+	 * Methoden(Funktion):
 	 * Modifier(static,public,private,final,...) + Rückgabe(void oder eine ObjectArt(String, int, Rank, List<>,...)) + Name der Funktion + (Objecte die übergeben werden sollen: ObjectArt(String, Rank,...) + Name) + ;
 	 */
 	public int getMyInteger(String s){
