@@ -6,7 +6,7 @@ public class Example {
 	 * Variablen:
 	 * Modifier(static,public,private,abstract,final,protected,...) + ObjectArt(String,int,Rank,...) + Name;
 	 */
-	public int ichbineinInteger;
+	public final int ichbineinInteger;
 	
 	/***
 	 * Methoden(Funktion):
@@ -18,10 +18,14 @@ public class Example {
 	
 	/***
 	 * Constructor:
-	 * Modifier(static,public,private,final,...) + KlassenName + (){
+	 * Modifier(static,public,private,final,...) + KlassenName + ( Objecte die zum erstellen der Objectes benötigt werden: ObjectArt(String, Rank,...)) ){
 	 * 
 	 * }
 	 */
+	
+	public Example(int newint){
+		this.ichbineinInteger = newint;
+	}
 	
 
 }
