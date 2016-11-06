@@ -16,5 +16,12 @@ public class Example {
 		return ichbineinInteger;
 	}
 	
+	/***
+	 * Constructor:
+	 * Modifier(static,public,private,final,...) + KlassenName + (){
+	 * 
+	 * }
+	 */
+	
 
 }
