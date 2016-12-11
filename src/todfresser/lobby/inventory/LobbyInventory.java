@@ -1,4 +1,4 @@
-package todfresser.lobby.main;
+package todfresser.lobby.inventory;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

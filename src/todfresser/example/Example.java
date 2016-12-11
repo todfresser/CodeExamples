@@ -1,4 +1,4 @@
-package todfresser.lobby.main;
+package todfresser.example;
 
 
 public class Example {
@@ -19,7 +19,6 @@ public class Example {
 	/***
 	 * Constructor:
 	 * Modifier(static,public,private,final,...) + KlassenName + ( Objecte die zum erstellen der Objectes benötigt werden: ObjectArt(String, Rank,...)) ){
-	 * 
 	 * }
 	 */
 	

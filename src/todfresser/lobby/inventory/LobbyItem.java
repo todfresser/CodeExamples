@@ -1,4 +1,4 @@
-package todfresser.lobby.main;
+package todfresser.lobby.inventory;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
