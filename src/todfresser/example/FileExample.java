@@ -1,6 +1,7 @@
 package todfresser.example;
 
 import java.io.File;
+import java.io.IOException;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -15,6 +16,11 @@ public class FileExample{
 		File file = new File("plugins/Smash/Maps", "Spawn.yml");
 		FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
 		cfg.set("SpawnLocation", l.getWorld().getName() + l.getX() + "," + l.getY() + "," + l.getZ() + "," + l.getYaw());
+		try {
+			cfg.save(file);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		
 		
 		
